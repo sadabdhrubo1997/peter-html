@@ -1,0 +1,1590 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 44.46614583333333%;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 151.5rem;
+    margin: 0 auto;
+}
+
+/* ************** */
+/* Top Section Style Start */
+/* ************** */
+
+#top-section {
+    padding-top: 5rem;
+    padding-bottom: 16rem;
+}
+
+#top-section .header {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-section .header .logo-area {
+    width: 6rem;
+    height: 3rem;
+}
+
+#top-section .header .logo-area a {
+    width: 100%;
+    height: 100%;
+}
+
+#top-section .header .logo-area a img {
+    width: 100%;
+    height: 100%;
+}
+
+#top-section .header .menu {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-section .header .menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 60%;
+}
+
+#top-section .header .menu ul li {
+    cursor: pointer;
+}
+
+#top-section .header .menu ul li a {
+    position: relative;
+    text-decoration: none;
+    font-family: A-medium;
+    color: #4c4c4c;
+    font-size: 2.1rem;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#top-section .header .menu ul li:hover a {
+    color: #000000;
+}
+
+#top-section .header .menu ul li a::after {
+    position: absolute;
+    content: "";
+    top: 110%;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+    background-color: #ff0000;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#top-section .header .menu ul li:hover a::after {
+    width: 50%;
+}
+
+#top-section .header .menu .btn-area {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+}
+
+#top-section .header .menu .btn-area a {
+    text-decoration: none;
+}
+
+#top-section .header .menu .btn-area a button {
+    padding: 2.1rem 1.5rem;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+    cursor: pointer;
+    font-family: A-medium;
+    font-size: 2.1rem;
+    border: 0.1rem solid #ff1f40;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    outline: none;
+}
+
+#top-section .header .menu .btn-area a button.first {
+    background-color: transparent;
+}
+
+#top-section .header .menu .btn-area a button.first:hover {
+    background-color: #ff1f40;
+    color: #ffffff;
+}
+
+#top-section .header .menu .btn-area a button.second {
+    background-color: #ff1f40;
+    color: #ffffff;
+}
+
+#top-section .header .menu .btn-area a button.second:hover {
+    background-color: #c9213a;
+}
+
+#top-section .bottom-section {
+    margin-top: 16.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top-section .bottom-section .left {
+    width: 52%;
+}
+
+#top-section .bottom-section .left h1 {
+    font-family: A-book;
+    font-size: 9rem;
+    line-height: 11.7rem;
+    margin-bottom: 2.5rem;
+}
+
+#top-section .bottom-section .left p {
+    width: 95%;
+    font-family: A-book;
+    font-size: 2.3rem;
+    line-height: 4.6rem;
+    color: #4c4c4c;
+    margin-bottom: 4.5rem;
+}
+
+#top-section .bottom-section .left>a {
+    text-decoration: none;
+}
+
+#top-section .bottom-section .left a .enroll-btn {
+    font-family: A-medium;
+    color: #ffffff;
+    font-size: 3rem;
+    padding: 2.7rem 5.7rem;
+    background-color: #ff1f40;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    cursor: pointer;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+    outline: none;
+}
+
+#top-section .bottom-section .left a button.enroll-btn:hover {
+    background-color: #c9213a;
+}
+
+#top-section .bottom-section .right {
+    width: 48%;
+}
+
+#top-section .bottom-section .right img {
+    width: 100%;
+}
+
+/* ************** */
+/* Top Section Style End */
+/* ************** */
+
+/* ************** */
+/* Programs Section Style Start */
+/* ************** */
+#programs-section {
+    background-color: rgba(0, 0, 0, 0.04);
+    padding-top: 9rem;
+    padding-bottom: 14rem;
+}
+
+#programs-section h2 {
+    font-family: A-medium;
+    font-size: 6rem;
+    color: #000000;
+    font-size: 6rem;
+    margin-bottom: 2.3rem;
+}
+
+#programs-section p {
+    max-width: 63.5rem;
+    font-family: A-medium;
+    font-size: 2.4rem;
+    line-height: 3.7rem;
+    letter-spacing: 0.015em;
+    color: #4c4c4c;
+    margin-bottom: 6rem;
+}
+
+#programs-section .bottom-area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#programs-section .bottom-area .box {
+    width: 32%;
+    padding: 4rem 2.5rem 4rem 2.5rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    border: 0.1rem solid rgba(76, 76, 76, 0.3);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+}
+
+#programs-section .bottom-area .box:hover {
+    box-shadow: 1.3rem 6rem 12rem rgba(0, 0, 0, 0.15);
+}
+
+#programs-section .bottom-area .box:hover {
+    border: 0.1rem solid rgba(76, 76, 76, 0);
+}
+
+#programs-section .bottom-area .box .round {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgba(255, 31, 64, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#programs-section .bottom-area .box .round span {
+    font-family: A-medium;
+    color: #ff1f40;
+    font-size: 4rem;
+}
+
+#programs-section .bottom-area .box h4 {
+    font-family: A-medium;
+    color: #262626;
+    font-size: 3.5rem;
+    margin: 3.5rem 0 3rem 0;
+}
+
+#programs-section .bottom-area .box p {
+    font-family: A-book;
+    font-size: 2rem;
+    line-height: 3.7rem;
+    color: rgba(76, 76, 76, 1);
+    letter-spacing: 0.015em;
+}
+
+/* ************** */
+/* Programs Section Style End */
+/* ************** */
+
+/* ************** */
+/* Tutor Section Style Start */
+/* ************** */
+
+#tutor-section {
+    width: 100%;
+    padding-bottom: 21.5rem;
+}
+
+#tutor-section .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#tutor-section .main .left {
+    width: 37%;
+    padding-top: 23rem;
+}
+
+#tutor-section .main .left h2 {
+    font-family: A-medium;
+    font-size: 6rem;
+    line-height: 7.8rem;
+    color: #262626;
+    margin-bottom: 2.5rem;
+}
+
+#tutor-section .main .left p {
+    width: 100%;
+    font-family: A-book;
+    font-size: 2.4rem;
+    line-height: 5rem;
+    letter-spacing: 0.015em;
+    color: #4c4c4c;
+}
+
+#tutor-section .main .right {
+    margin-top: 18rem;
+    width: 57%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#tutor-section .main .right .box {
+    width: 47%;
+    height: 50rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    position: relative;
+    cursor: pointer;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
+#tutor-section .main .right .box .front {
+    transform: perspective(100rem) rotateY(0deg);
+    -webkit-transform: perspective(100rem) rotateY(0deg);
+    -moz-transform: perspective(100rem) rotateY(0deg);
+    -ms-transform: perspective(100rem) rotateY(0deg);
+    -o-transform: perspective(100rem) rotateY(0deg);
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    overflow: hidden;
+    border: 0.1rem solid rgba(0, 0, 0, 0.12);
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+
+#tutor-section .main .right .box .front .image {
+    width: 100%;
+    height: 35rem;
+    background-color: #858585;
+    border-radius: 1.5rem 1.5rem 0 0;
+    -webkit-border-radius: 1.5rem 1.5rem 0 0;
+    -moz-border-radius: 1.5rem 1.5rem 0 0;
+    -ms-border-radius: 1.5rem 1.5rem 0 0;
+    -o-border-radius: 1.5rem 1.5rem 0 0;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tutor-section .main .right .box .front h3 {
+    width: 100%;
+    margin-top: 5.5rem;
+    margin-left: 4rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    -webkit-border-radius: 0 0 1.5rem 1.5rem;
+    -moz-border-radius: 0 0 1.5rem 1.5rem;
+    -ms-border-radius: 0 0 1.5rem 1.5rem;
+    -o-border-radius: 0 0 1.5rem 1.5rem;
+    font-size: 3rem;
+    letter-spacing: 0.015em;
+    color: #000000;
+    font-family: A-book;
+    display: inline-block;
+}
+
+#tutor-section .main .right .box .back {
+    transform: perspective(100rem) rotateY(-180deg);
+    -webkit-transform: perspective(100rem) rotateY(-180deg);
+    -moz-transform: perspective(100rem) rotateY(-180deg);
+    -ms-transform: perspective(100rem) rotateY(-180deg);
+    -o-transform: perspective(100rem) rotateY(-180deg);
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    border: 0.1rem solid rgba(0, 0, 0, 0.12);
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    background-color: #fff;
+}
+
+#tutor-section .main .right .box .back p {
+    font-size: 1.9rem;
+    line-height: 3.7rem;
+    letter-spacing: 0.015em;
+    color: #4c4c4c;
+    font-family: A-book;
+    margin-top: 10rem;
+    padding: 0 0 0 2rem;
+}
+
+#tutor-section .main .right .box .back .social-box {
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+}
+
+#tutor-section .main .right .box .back .social-box a {
+    height: 4.4rem;
+    width: 4.4rem;
+    background-color: rgba(255, 31, 64, 0.1);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 2rem;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#tutor-section .main .right .box .back .social-box a:hover {
+    background-color: rgba(255, 31, 64, 1);
+}
+
+#tutor-section .main .right .box .back .social-box a:hover svg {
+    fill: rgba(255, 255, 255);
+}
+
+#tutor-section .main .right .box .back .social-box a svg {
+    fill: rgba(255, 31, 64, 1);
+}
+
+#tutor-section .main .right .box:hover {
+    box-shadow: 1.3rem 6rem 12rem rgba(0, 0, 0, 0.15);
+}
+
+#tutor-section .main .right .box:hover .front {
+    transform: perspective(100rem) rotateY(180deg);
+    -webkit-transform: perspective(100rem) rotateY(180deg);
+    -moz-transform: perspective(100rem) rotateY(180deg);
+    -ms-transform: perspective(100rem) rotateY(180deg);
+    -o-transform: perspective(100rem) rotateY(180deg);
+}
+
+#tutor-section .main .right .box:hover .back {
+    transform: perspective(100rem) rotateY(0deg);
+    -webkit-transform: perspective(100rem) rotateY(0deg);
+    -moz-transform: perspective(100rem) rotateY(0deg);
+    -ms-transform: perspective(100rem) rotateY(0deg);
+    -o-transform: perspective(100rem) rotateY(0deg);
+}
+
+/* ************** */
+/* Tutor Section Style End */
+/* ************** */
+
+/* ************** */
+/* Our Student Section Style Start */
+/* ************** */
+
+#our-student-section {
+    padding-bottom: 16rem;
+}
+
+#our-student-section h3 {
+    font-family: A-medium;
+    font-size: 6rem;
+    color: #262626;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#our-student-section .slider-area {
+    width: 75%;
+    height: 19rem;
+    margin: 0 auto;
+}
+
+#our-student-section .slider-area .slider-item {
+    height: 100%;
+}
+
+#our-student-section .slider-area .slider-item .box {
+    height: 100%;
+    height: 19rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ************** */
+/* Our Student Section Style End */
+/* ************** */
+
+/* ************** */
+/* Curriculam Section Style Start */
+/* ************** */
+
+#curriculam {
+    background-color: rgba(0, 0, 0, 0.04);
+    padding-top: 11.5rem;
+    padding-bottom: 14rem;
+    overflow-x: hidden;
+}
+
+#curriculam h2 {
+    font-size: 6rem;
+    font-family: A-medium;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 3rem;
+}
+
+#curriculam .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#curriculam .bottom p {
+    max-width: 63rem;
+    font-family: A-light;
+    font-size: 2.4rem;
+    line-height: 3.7rem;
+    letter-spacing: 0.015em;
+    color: #4c4c4c;
+    margin-bottom: 7.5rem;
+    float: left;
+}
+
+#curriculam .button-area {
+    width: 20rem;
+    height: 8.5rem;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+#curriculam .button-area .mt-btn {
+    height: 8.4rem;
+    width: 8.4rem;
+    margin-top: 2.5rem;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgba(255, 31, 64, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#curriculam .button-area .mt-btn:hover {
+    background-color: #ff1f40;
+}
+
+#curriculam .button-area .mt-btn svg {
+    fill: #ff1f40;
+    display: block;
+    margin-left: 1.8rem;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#curriculam .button-area .mt-btn:hover svg {
+    fill: #ffffff;
+}
+
+#curriculam>.slider {
+    height: 56rem;
+    /* overflow-x: hidden;
+  overflow-y: hidden; */
+}
+
+#curriculam .slider .slick-list {
+    overflow: initial;
+}
+
+#curriculam .slider .slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56rem;
+}
+
+#curriculam .slider .slider-item .box {
+    width: 100%;
+    height: 56rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#curriculam .slider .slider-item .box .sub {
+    width: 95%;
+    height: 95%;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    background-color: #ffffff;
+    position: relative;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+#curriculam .slider .slider-item .box .sub:hover {
+    box-shadow: 1.3rem 6rem 12rem rgba(0, 0, 0, 0.15);
+}
+
+#curriculam .slider .slider-item .box .sub .front {
+    transform: perspective(100rem) rotateY(0deg);
+    -webkit-transform: perspective(100rem) rotateY(0deg);
+    -moz-transform: perspective(100rem) rotateY(0deg);
+    -ms-transform: perspective(100rem) rotateY(0deg);
+    -o-transform: perspective(100rem) rotateY(0deg);
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    overflow: hidden;
+    border: 0.1rem solid rgba(0, 0, 0, 0.12);
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+}
+
+#curriculam .slider .slider-item .box .sub .front .image {
+    width: 100%;
+    height: 36.5rem;
+    background-color: #222000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#curriculam .slider .slider-item .box .sub .front h3 {
+    font-family: A-light;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.015em;
+    color: #000000;
+    padding-left: 3.5rem;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+#curriculam .slider .slider-item .box .sub .front h4 {
+    font-family: A-light;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.015em;
+    color: #ff1f40;
+    padding-left: 3.5rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#curriculam .slider .slider-item .box .sub .back {
+    transform: perspective(100rem) rotateY(-180deg);
+    -webkit-transform: perspective(100rem) rotateY(-180deg);
+    -moz-transform: perspective(100rem) rotateY(-180deg);
+    -ms-transform: perspective(100rem) rotateY(-180deg);
+    -o-transform: perspective(100rem) rotateY(-180deg);
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    border: 0.1rem solid rgba(0, 0, 0, 0.12);
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+#curriculam .slider .slider-item .box .sub .back p {
+    padding: 8.5rem 3rem 0 3rem;
+    font-family: A-medium;
+    font-size: 1.9rem;
+    line-height: 4.4rem;
+    letter-spacing: 0.015em;
+    color: #4c4c4c;
+	height: 100%;
+}
+
+/* ************** */
+/* Curriculam Section Style End */
+/* ************** */
+
+/* ************** */
+/* Creative Coaching Section Style Start */
+/* ************** */
+
+#coaching {
+    /* background-color: rgb(182, 79, 79); */
+    padding: 26.5rem 0;
+    width: 100%;
+}
+
+#coaching .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#coaching .main .left {
+    width: 47%;
+    height: 87rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#coaching .main .right {
+    width: 47%;
+}
+
+#coaching .main .right h3 {
+    font-family: A-book;
+    font-size: 6rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+#coaching .main .right .service-elelment {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+#coaching .main .right .service-elelment .circle {
+    width: 5.6rem;
+    height: 5.6rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgba(255, 31, 64, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: A-medium;
+    font-size: 2.5rem;
+    color: rgba(255, 31, 64, 1);
+    margin-right: 2.5rem;
+}
+
+#coaching .main .right .service-elelment p {
+    line-height: 100%;
+    max-width: calc(100% - 81px);
+    letter-spacing: 0.015em;
+    color: #000000;
+    font-family: A-book;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+/* ************** */
+/* Creative Coaching Section Style End */
+/* ************** */
+
+/* ************** */
+/* FAQ Section Style Start */
+/* ************** */
+
+#faq {
+    width: 100%;
+}
+
+#faq .main {
+    padding: 12rem 0;
+    background-color: rgba(76, 76, 76, 0.04);
+    border: 0.2rem solid rgba(76, 76, 76, 0.49);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+#faq .main h2 {
+    text-align: center;
+    font-size: 6rem;
+    line-height: 8.8rem;
+    color: #000000;
+    font-family: A-medium;
+    margin-bottom: 9.5rem;
+}
+
+#faq .acc {
+    width: 71rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#faq .acc .item {
+    width: 100%;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    border: 0.3rem solid rgba(201, 33, 58, 0.13);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#faq .acc .item.active {
+    border: 3px solid rgba(201, 33, 58, 1);
+}
+
+#faq .acc .item .top {
+    width: 100%;
+    height: 13.5rem;
+    background-color: rgba(201, 33, 58, 0.13);
+    padding: 0 2rem 0 3rem;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#faq .acc .item.active .top {
+    background-color: rgba(201, 33, 58, 1);
+}
+
+#faq .acc .item .top .circle {
+    height: 3.2rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid rgba(201, 33, 58, 1);
+    margin-right: 15px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#faq .acc .item.active .top .circle {
+    border: 0.2rem solid rgb(255, 255, 255);
+}
+
+#faq .acc .item .top h4 {
+    text-align: left;
+    font-size: 2.8rem;
+    letter-spacing: 0.01em;
+    font-family: A-light;
+    color: rgba(201, 33, 58, 1);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    width: 57rem;
+    line-height: 1.7;
+}
+
+#faq .acc .item.active .top h4 {
+    color: rgb(255, 255, 255);
+}
+
+#faq .acc .item .top .active-icon {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-left: auto;
+    cursor: pointer;
+    position: relative;
+}
+
+#faq .acc .item .top .active-icon .one {
+    position: absolute;
+    height: 0.4rem;
+    width: 100%;
+    background-color: rgba(201, 33, 58, 1);
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+    top: 50%;
+    left: 50%;
+    transform-origin: center center;
+    transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    -moz-transform: translate(-50%, -50%) rotate(0deg);
+    -ms-transform: translate(-50%, -50%) rotate(0deg);
+    -o-transform: translate(-50%, -50%) rotate(0deg);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#faq .acc .item.active .top .active-icon .one {
+    background-color: rgb(255, 255, 255);
+}
+
+#faq .acc .item .top .active-icon .two {
+    position: absolute;
+    height: 0.4rem;
+    width: 100%;
+    background-color: rgba(201, 33, 58, 1);
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+    top: 50%;
+    left: 50%;
+    transform-origin: center center;
+    transform: translate(-50%, -50%) rotate(90deg);
+    -webkit-transform: translate(-50%, -50%) rotate(90deg);
+    -moz-transform: translate(-50%, -50%) rotate(90deg);
+    -ms-transform: translate(-50%, -50%) rotate(90deg);
+    -o-transform: translate(-50%, -50%) rotate(90deg);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#faq .acc .item .top .active-icon.active .two {
+    transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    -moz-transform: translate(-50%, -50%) rotate(0deg);
+    -ms-transform: translate(-50%, -50%) rotate(0deg);
+    -o-transform: translate(-50%, -50%) rotate(0deg);
+}
+
+#faq .acc .item.active .top .active-icon .two {
+    background-color: rgb(255, 255, 255);
+}
+
+#faq .acc .item .top.active .active-icon .two {
+    transform-origin: center center;
+    transform: translate(-50%, -50%) rotate(0deg);
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    -moz-transform: translate(-50%, -50%) rotate(0deg);
+    -ms-transform: translate(-50%, -50%) rotate(0deg);
+    -o-transform: translate(-50%, -50%) rotate(0deg);
+}
+
+#faq .acc .item .acc-body {
+    padding: 3.5rem 2rem 3rem 5rem;
+    display: none;
+}
+
+#faq .acc .item .acc-body p {
+    font-family: A-book;
+    font-size: 2.5rem;
+    line-height: 4.6rem;
+    letter-spacing: 0.015em;
+    color: rgba(0, 0, 0, 0.52);
+}
+
+/* ************** */
+/* FAQ Section Style End */
+/* ************** */
+
+/* ************** */
+/* Tech Online Style Start */
+/* ************** */
+
+#tech-online {
+    background-color: #fff;
+    padding: 22.5rem 0 19rem 0;
+}
+
+#tech-online .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tech-online .main .left {
+    width: 45%;
+    height: 82.5rem;
+    background-color: #ff0011;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+#tech-online .main .right {
+    width: 51.5%;
+}
+
+#tech-online .main .right h2 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 6rem;
+    font-family: A-medium;
+    line-height: 3.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 4.5rem;
+}
+
+#tech-online .main .right p {
+    font-family: A-book;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+/* ************** */
+/* Tech Online Style End */
+/* ************** */
+
+/* ************** */
+/* Student quote Style Start */
+/* ************** */
+
+#student-quote {
+    padding: 19rem 0 21.5rem 0;
+    overflow: hidden;
+}
+
+#student-quote h2 {
+    margin-bottom: 6rem;
+    font-size: 6rem;
+    line-height: 8.8rem;
+    color: #000000;
+    font-family: A-medium;
+}
+
+#student-quote .main-slider {
+    width: 100%;
+    height: 50rem;
+}
+
+#student-quote .main-slider .item {
+    width: 100%;
+    height: 39rem;
+    /* background-color: rgb(228, 82, 82); */
+    position: relative;
+}
+
+#student-quote .main-slider .item .box {
+    background-image: url(../img/block-quote.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 3.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 97%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    padding: 6.7rem 8.3rem 6.4rem 5.9rem;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    opacity: 0.5;
+    outline: none;
+}
+
+#student-quote .main-slider .item .box p {
+    font-family: A-book;
+    font-size: 2.5rem;
+    line-height: 1.6;
+    letter-spacing: 0.015em;
+    color: rgba(0, 0, 0, 0.52);
+}
+
+#student-quote .main-slider .slick-list {
+    overflow: initial;
+}
+
+#student-quote .main-slider .item .box .bottom {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+#student-quote .main-slider .item .box .bottom .image {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(243, 33, 33);
+    overflow: hidden;
+}
+
+#student-quote .main-slider .item .box .bottom .image img {
+    width: 100%;
+    height: 100%;
+}
+
+#student-quote .main-slider .item .box .bottom .name p {
+    font-size: 3.5rem;
+    line-height: 8.8rem;
+    font-family: A-book;
+    color: #000000;
+    margin-left: 3rem;
+}
+
+#student-quote .slick-active div {
+    height: 100%;
+}
+
+#student-quote .slick-active div .item .box,
+#student-quote .slick-current div .item .box,
+#student-quote .slick-center div .item .box {
+    opacity: 1;
+    border: 0.1rem solid rgba(0, 0, 0, 0);
+    box-shadow: 1.5rem 2.3rem 10.2rem rgba(76, 76, 76, 0.15);
+    outline: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+/* ************** */
+/* Student quote Style End */
+/* ************** */
+
+/* ************** */
+/* Consult With Us Style Start */
+/* ************** */
+
+#consult {
+    padding: 9.6rem 0;
+    background-color: rgba(255, 103, 126, 0.22);
+}
+
+#consult h2 {
+    text-align: center;
+    font-family: A-medium;
+    font-size: 6rem;
+    line-height: 8.8rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 7.5rem;
+}
+
+#consult form {
+    width: 105rem;
+    margin: 0 auto;
+}
+
+#consult form div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#consult form div input {
+    width: 48.8%;
+    height: 11.2rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    padding: 0 4rem;
+}
+
+#consult form div input[type="text"],
+#consult form div input[type="email"] {
+    font-family: A-book;
+    font-size: 2.5rem;
+    color: rgba(76, 76, 76, 1);
+}
+
+#consult form div input[type="text"]::-ms-input-placeholder,
+#consult form div input[type="text"]:-ms-input-placeholder,
+#consult form div input[type="text"]::placeholder,
+#consult form div input[type="email"]::-ms-input-placeholder,
+#consult form div input[type="email"]:-ms-input-placeholder,
+#consult form div input[type="email"]::placeholder {
+    color: rgba(76, 76, 76, 0.6);
+}
+
+#consult form div textarea {
+    min-width: 100%;
+    margin-top: 3rem;
+    min-height: 30rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 4rem;
+    font-family: A-book;
+    font-size: 2.5rem;
+    color: rgba(76, 76, 76, 1);
+}
+
+#consult form div textarea::-ms-input-placeholder,
+#consult form div textarea:-ms-input-placeholder,
+#consult form div textarea::placeholder {
+    color: rgba(76, 76, 76, 0.6);
+}
+
+#consult .bottom {
+    display: flex;
+    justify-content: center;
+}
+
+#consult form div .send-btn {
+    margin-top: 6.5rem;
+    font-size: 3rem;
+    width: 28.3rem;
+    height: 9.2rem;
+    cursor: pointer;
+    background-color: rgba(255, 31, 64, 1);
+    font-family: A-medium;
+    font-size: 3rem;
+    color: #ffffff;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#consult form div .send-btn:hover {
+    background-color: rgba(201, 33, 58, 1);
+}
+
+/* ************** */
+/* Consult With Us Style End */
+/* ************** */
+
+/* ************** */
+/* Footer Section Style Start */
+/* ************** */
+
+#footer {
+    width: 100%;
+    padding: 15rem 0 7rem 0;
+    background-color: #fff;
+}
+
+#footer .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .main .left {
+    width: 22%;
+}
+
+#footer .main .left a img {
+    margin-bottom: 0.5rem;
+}
+
+#footer .main .left p {
+    font-family: A-book;
+    font-size: 1.8rem;
+    line-height: 3.8rem;
+    color: #4c4c4c;
+    cursor: default;
+    margin-bottom: 3rem;
+}
+
+#footer .main .left h3 {
+    font-family: A-medium;
+    font-size: 2.5rem;
+    line-height: 3.3rem;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+#footer .main .left .social-link {
+    height: 3.6rem;
+    display: flex;
+    align-items: center;
+}
+
+#footer .main .left .social-link a {
+    height: 3.6rem;
+    width: 3.6rem;
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+#footer .main .left .social-link a span {
+    height: 3.6rem;
+    width: 3.6rem;
+    background: rgba(255, 31, 64, 0.1);
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .main .left .social-link a:hover span {
+    background-color: #ff1f40;
+}
+
+#footer .main .left .social-link a span>svg {
+    fill: #ff1f40;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#footer .main .left .social-link a:hover span>svg {
+    fill: rgba(255, 255, 255, 1);
+}
+
+#footer .main .our-coach {
+    width: 21%;
+}
+
+#footer .main .learn-more {
+    width: 21%;
+}
+
+#footer .main .company {
+    width: 14%;
+}
+
+#footer .main .footer-common h3 {
+    font-family: A-medium;
+    font-size: 2.5rem;
+    line-height: 8.8rem;
+    color: #000000;
+}
+
+#footer .main .footer-common p {
+    font-family: A-book;
+    font-size: 2.3rem;
+    line-height: 3.8rem;
+    color: #4c4c4c;
+    margin-bottom: 0.9rem;
+    cursor: default;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+#footer .main .footer-common p:hover {
+    color: #000000;
+}
+
+/* ************** */
+/* Footer Section Style End */
+/* ************** */
+
+/* ************** */
+/* Copyright section Style Start */
+/* ************** */
+
+#copyright {
+    padding: 3.5rem 0;
+    background-color: rgba(255, 31, 64, 1);
+    font-family: A-medium;
+    color: #ffffff;
+}
+
+#copyright .main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#copyright .main .left .copy {
+    font-size: 2.3rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+#copyright .main .left .name {
+    font-size: 1.8rem;
+    margin-right: 1.2rem;
+    display: inline-block;
+}
+
+#copyright .main .right {
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#copyright .main .right a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: A-medium;
+    color: #ffffff;
+}
+
+/* ************** */
+/* Copyright section Style End */
+/* ************** */
